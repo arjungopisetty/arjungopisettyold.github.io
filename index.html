@@ -18,7 +18,7 @@
     <link href="css/stylish-portfolio.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
 </head>
@@ -52,7 +52,7 @@
     </nav>
 
     <!-- Header -->
-    <header id="top" class="header">
+    <header id="top" class="header" style="color: #ffffff">
         <div class="text-vertical-center">
             <h1>Arjun Gopisetty</h1>
             <h3>Computer Science Student at The University of Texas at Austin</h3>
@@ -65,10 +65,16 @@
     <section id="about" class="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Interests</h2>
-                    <p class="lead">Mobile Development and Hackathon Projects</p>
+                <div class="text-center">
+                    <h1>Hi, I'm Arjun. I like to build things.</h1>
+                    <hr class="small">
                 </div>
+            </div>
+            <div class="row">
+                <h3>I'm working on my Bachelor of Science in Computer Science at The University of Texas at Austin. 
+                My current interests revolve around mobile, mostly Android. 
+                I work on open source side projects and freelance in my free time, and attend hackathons whenever I can.
+                Feel free to reach out to me about anything! </h3>
             </div>
             <!-- /.row -->
         </div>
@@ -84,7 +90,7 @@
                     <h2>My Skills</h2>
                     <hr class="small">
                     <div class="row">
-                        <div class="col-md-4 col-sm-5">
+                        <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
@@ -96,7 +102,7 @@
                                 <p>Learned through AP Computer Science, CS 314: Data Structures and side projects</p>
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-5">
+                        <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
@@ -108,7 +114,7 @@
                                 <p>Developed side projects with help from Mobile App Developement (MAD)</p>
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-5">
+                        <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
@@ -117,7 +123,19 @@
                                 <h4>
                                     <strong>Git</strong>
                                 </h4>
-                                <p>Basic git skill used through Github to host projects</p>
+                                <p>Learned Git through hosting projects on Github</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-bolt fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Python</strong>
+                                </h4>
+                                <p>Wrote Python scripts and Django websites to gather, analyze, and display amazon sales for Coheso inc.</p>
                             </div>
                         </div>
                     </div>
@@ -156,10 +174,10 @@
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="https://github.com/arjungopisetty/TrackYourStack">
+                                <a href="https://github.com/arjungopisetty/OrangeTower">
                                     <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
                                 </a>
-                                Android app for holding budgets for different uses throughout the week. Each budget can have custom items that deducts from the total. (Under Development)
+                                Android app to see if and why the UT Austin tower is orange. (Under Development!)
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -180,39 +198,36 @@
     </section>
 
     <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Contact</strong>
-                    </h4>
-                    <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i> (650) 793-7084</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:arjun.gopisetty@gmail.com">arjun.gopisetty@gmail.com</a>
-                        </li>
-                    </ul>
-                    <br>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="http://www.facebook.com/arjundo"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                        </li>
-                        <!--
-                        <li>
-                            <a href="http://www.twitter.com/arjungopisetty"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                        </li>
-                        -->
-                        <li>
-                            <a href="http://www.github.com/arjungopisetty"><i class="fa fa-github-alt fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="http://www.linkedin.com/pub/arjun-gopisetty/34/61/305"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
-                        </li>
-                    </ul>
-                    <hr class="small">
-                    <p class="text-muted">Copyright &copy; Arjun Gopisetty 2014</p>
+    <footer class="bg-primary">
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1 text-center">
+                        <h4><strong>Contact</strong>
+                        </h4>
+                        <ul class="list-unstyled">
+                            <li><i class="fa fa-phone fa-fw"></i> (650) 793-7084</li>
+                            <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:arjun.gopisetty@gmail.com" style="color: #ffffff">arjun.gopisetty@gmail.com</a>
+                            </li>
+                        </ul>
+                        <br>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="resume/Arjun_Gopisetty_Resume.pdf"><i class="fa fa-file-text fa-fw fa-3x fa-inverse"></i></a>
+                            </li>
+                            <li>
+                                <a href="http://www.github.com/arjungopisetty"><i class="fa fa-github fa-fw fa-3x fa-inverse"></i></a>
+                            </li>
+                            <li>
+                                <a href="http://www.linkedin.com/in/arjungopisetty/en"><i class="fa fa-linkedin fa-fw fa-3x fa-inverse"></i></a>
+                            </li>
+                        </ul>
+                        <hr class="small">
+                        <p class="text-muted" style="color: #efefea">Copyright &copy; Arjun Gopisetty 2015</p>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     </footer>
 
     <!-- jQuery Version 1.11.0 -->
